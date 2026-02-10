@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro-i18n-check --base en && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check-sync": "astro-i18n-check --base en"
   },
   "dependencies": {
     "@ariaskit/astro-i18n": "^0.0.8",
