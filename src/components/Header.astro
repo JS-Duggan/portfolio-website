@@ -22,7 +22,7 @@ const base = import.meta.env.BASE_URL
                 <I18NDebug key={item.text}>
                     <a
                         class="opacity-50 transition-all duration-200 hover:opacity-100 text-[1rem] md:text-[0.85rem]"
-                        href={`${base}${currentLocale}/${item.path}`}
+                        href={`${base}/${currentLocale}/${item.path}`}
                     >
                         {item.text}
                     </a>
