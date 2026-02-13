@@ -2,8 +2,6 @@
 export const getStaticPaths = () => {
   return [
     { params: { lang: "en" } },
-    { params: { lang: "es" } },
-    { params: { lang: "pt" } },
   ];
 };
 
@@ -31,7 +29,7 @@ const nav = [
 ];
 
 const heroProps = {
-  name: "Alex Chen",
+  name: "Jack Duggan",
   title: { key: "hero.title", value: t("hero.title") },
   p1: { key: "hero.p1", value: t("hero.p1") },
   p2: { key: "hero.p2", value: t("hero.p2") },
@@ -66,35 +64,7 @@ const projects = [
     name: t("projects.item_4.name"),
     description: t("projects.item_4.description"),
     link: t("projects.item_4.link"),
-  },
-  {
-    nameKey: "projects.item_5.name",
-    descriptionKey: "projects.item_5.description",
-    name: t("projects.item_5.name"),
-    description: t("projects.item_5.description"),
-    link: t("projects.item_5.link"),
-  },
-  {
-    nameKey: "projects.item_6.name",
-    descriptionKey: "projects.item_6.description",
-    name: t("projects.item_6.name"),
-    description: t("projects.item_6.description"),
-    link: t("projects.item_6.link"),
-  },
-  {
-    nameKey: "projects.item_7.name",
-    descriptionKey: "projects.item_7.description",
-    name: t("projects.item_7.name"),
-    description: t("projects.item_7.description"),
-    link: t("projects.item_7.link"),
-  },
-  {
-    nameKey: "projects.item_8.name",
-    descriptionKey: "projects.item_8.description",
-    name: t("projects.item_8.name"),
-    description: t("projects.item_8.description"),
-    link: t("projects.item_8.link"),
-  },
+  }
 ];
 
 const projectsProps = {
@@ -143,43 +113,8 @@ const experienceData = {
         key: "experience.item_2.description",
         value: t("experience.item_2.description"),
       },
-    },
-    {
-      period: {
-        key: "experience.item_3.period",
-        value: t("experience.item_3.period"),
-      },
-      role: {
-        key: "experience.item_3.role",
-        value: t("experience.item_3.role"),
-      },
-      company: {
-        key: "experience.item_3.company",
-        value: t("experience.item_3.company"),
-      },
-      description: {
-        key: "experience.item_3.description",
-        value: t("experience.item_3.description"),
-      },
-    },
-    {
-      period: {
-        key: "experience.item_4.period",
-        value: t("experience.item_4.period"),
-      },
-      role: {
-        key: "experience.item_4.role",
-        value: t("experience.item_4.role"),
-      },
-      company: {
-        key: "experience.item_4.company",
-        value: t("experience.item_4.company"),
-      },
-      description: {
-        key: "experience.item_4.description",
-        value: t("experience.item_4.description"),
-      },
-    },
+    }
+
   ],
 };
 
@@ -211,14 +146,6 @@ const footerContent = {
     key: "contact.github_url",
     value: t("contact.github_url"),
   },
-  x_label: {
-    key: "contact.x_label",
-    value: t("contact.x_label"),
-  },
-  x_url: {
-    key: "contact.x_url",
-    value: t("contact.x_url"),
-  },
   linkedin_label: {
     key: "contact.linkedin_label",
     value: t("contact.linkedin_label"),
@@ -231,46 +158,46 @@ const footerContent = {
 
 const skills = [
   {
-    title: { key: "skills.react.title", value: t("skills.react.title") },
-    category: { key: "skills.react.category", value: t("skills.react.category") },
-    description: { key: "skills.react.description", value: t("skills.react.description") },
-    experience_years: { key: "skills.react.experience_years", value: t("skills.react.experience_years") },
-    experience_label: { key: "skills.react.experience_label", value: t("skills.react.experience_label") },
+    title: { key: "skills.cpp.title", value: t("skills.cpp.title") },
+    category: { key: "skills.cpp.category", value: t("skills.cpp.category") },
+    description: { key: "skills.cpp.description", value: t("skills.cpp.description") },
+    experience_years: { key: "skills.cpp.experience_years", value: t("skills.cpp.experience_years") },
+    experience_label: { key: "skills.cpp.experience_label", value: t("skills.cpp.experience_label") },
   },
   {
-    title: { key: "skills.typescript.title", value: t("skills.typescript.title") },
-    category: { key: "skills.typescript.category", value: t("skills.typescript.category") },
-    description: { key: "skills.typescript.description", value: t("skills.typescript.description") },
-    experience_years: { key: "skills.typescript.experience_years", value: t("skills.typescript.experience_years") },
-    experience_label: { key: "skills.typescript.experience_label", value: t("skills.typescript.experience_label") },
+    title: { key: "skills.git.title", value: t("skills.git.title") },
+    category: { key: "skills.git.category", value: t("skills.git.category") },
+    description: { key: "skills.git.description", value: t("skills.git.description") },
+    experience_years: { key: "skills.git.experience_years", value: t("skills.git.experience_years") },
+    experience_label: { key: "skills.git.experience_label", value: t("skills.git.experience_label") },
   },
   {
-    title: { key: "skills.astro.title", value: t("skills.astro.title") },
-    category: { key: "skills.astro.category", value: t("skills.astro.category") },
-    description: { key: "skills.astro.description", value: t("skills.astro.description") },
-    experience_years: { key: "skills.astro.experience_years", value: t("skills.astro.experience_years") },
-    experience_label: { key: "skills.astro.experience_label", value: t("skills.astro.experience_label") },
+    title: { key: "skills.linux.title", value: t("skills.linux.title") },
+    category: { key: "skills.linux.category", value: t("skills.linux.category") },
+    description: { key: "skills.linux.description", value: t("skills.linux.description") },
+    experience_years: { key: "skills.linux.experience_years", value: t("skills.linux.experience_years") },
+    experience_label: { key: "skills.linux.experience_label", value: t("skills.linux.experience_label") },
   },
   {
-    title: { key: "skills.tailwind.title", value: t("skills.tailwind.title") },
-    category: { key: "skills.tailwind.category", value: t("skills.tailwind.category") },
-    description: { key: "skills.tailwind.description", value: t("skills.tailwind.description") },
-    experience_years: { key: "skills.tailwind.experience_years", value: t("skills.tailwind.experience_years") },
-    experience_label: { key: "skills.tailwind.experience_label", value: t("skills.tailwind.experience_label") },
+    title: { key: "skills.algorithms.title", value: t("skills.algorithms.title") },
+    category: { key: "skills.algorithms.category", value: t("skills.algorithms.category") },
+    description: { key: "skills.algorithms.description", value: t("skills.algorithms.description") },
+    experience_years: { key: "skills.algorithms.experience_years", value: t("skills.algorithms.experience_years") },
+    experience_label: { key: "skills.algorithms.experience_label", value: t("skills.algorithms.experience_label") },
   },
   {
-    title: { key: "skills.nodejs.title", value: t("skills.nodejs.title") },
-    category: { key: "skills.nodejs.category", value: t("skills.nodejs.category") },
-    description: { key: "skills.nodejs.description", value: t("skills.nodejs.description") },
-    experience_years: { key: "skills.nodejs.experience_years", value: t("skills.nodejs.experience_years") },
-    experience_label: { key: "skills.nodejs.experience_label", value: t("skills.nodejs.experience_label") },
+    title: { key: "skills.python.title", value: t("skills.python.title") },
+    category: { key: "skills.git.category", value: t("skills.git.category") },
+    description: { key: "skills.git.description", value: t("skills.git.description") },
+    experience_years: { key: "skills.git.experience_years", value: t("skills.git.experience_years") },
+    experience_label: { key: "skills.git.experience_label", value: t("skills.git.experience_label") },
   },
   {
-    title: { key: "skills.kali_linux.title", value: t("skills.kali_linux.title") },
-    category: { key: "skills.kali_linux.category", value: t("skills.kali_linux.category") },
-    description: { key: "skills.kali_linux.description", value: t("skills.kali_linux.description") },
-    experience_years: { key: "skills.kali_linux.experience_years", value: t("skills.kali_linux.experience_years") },
-    experience_label: { key: "skills.kali_linux.experience_label", value: t("skills.kali_linux.experience_label") },
+    title: { key: "skills.competitive_programming.title", value: t("skills.competitive_programming.title") },
+    category: { key: "skills.competitive_programming.category", value: t("skills.competitive_programming.category") },
+    description: { key: "skills.competitive_programming.description", value: t("skills.competitive_programming.description") },
+    experience_years: { key: "skills.competitive_programming.experience_years", value: t("skills.competitive_programming.experience_years") },
+    experience_label: { key: "skills.competitive_programming.experience_label", value: t("skills.competitive_programming.experience_label") },
   }
 ];
 
@@ -282,7 +209,7 @@ const skills = [
   description={t("description")}
   alternateLinks={alternate}
 >
-  <Header nav={nav} locales={["en", "es", "pt"]} currentLocale={locale} />
+  <Header nav={nav} locales={["en"]} currentLocale={locale} />
 
   <main>
     <Hero {...heroProps} />

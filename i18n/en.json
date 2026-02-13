@@ -7,135 +7,101 @@
     "contact": "contact"
   },
   "hero": {
-    "title": "Full Stack Engineer",
-    "p1": "building performant web applications and developer tools. Currently crafting interfaces at Vercel",
-    "p2": "Previously shipped products at Linear, Stripe, and early-stage startups. I care about clean code, fast load times, and thoughtful UX.",
-    "p3": "When not coding, you'll find me contributing to open source, writing about web performance, or exploring new frameworks."
+    "title": "Software Engineer",
+    "p1": "building high-performance systems and exploring the intersection of algorithms and real-world problems. Currently developing projects in C++ and studying computer science",
+    "p2": "Working on everything from operating systems to poker solvers and competitive programming. I care about writing efficient code, understanding fundamentals deeply, and continuous improvement.",
+    "p3": "When not coding, you'll find me in the pool playing water polo, strategizing over Magic: The Gathering, or at the poker table."
   },
   "projects": {
     "title": "Projects",
     "item_1": {
-      "name": "hybrid-astro-ui",
-      "description": "UI elements for Astro using a hybrid model: zero-JS Astro + progressive enhancement with web components.",
-      "link": "https://github.com/JorgeRosbel/hybrid-astro-ui"
+      "name": "C++ Hash Map",
+      "description": "A high performance hash map implementation, using a swisse table with SIMD accelerated probing",
+      "link": "https://github.com/JS-Duggan/hash_map"
     },
     "item_2": {
-      "name": "http-sentinel",
-      "description": "A TypeScript library that provides a comprehensive set of HTTP error classes and utilities for handling HTTP errors.",
-      "link": "https://github.com/JorgeRosbel/http-sentinel"
+      "name": "Order Book",
+      "description": "Low-latency order book implementation in C++ with object pooling, cache-optimized data structures, and sub-microsecond matching.",
+      "link": "https://github.com/JS-Duggan/order-book"
     },
     "item_3": {
-      "name": "gitzen",
-      "description": "AI-powered CLI tool for automatic git commit message generation.",
-      "link": "https://github.com/JorgeRosbel/gitzen"
+      "name": "Particle Swarm Optimizer",
+      "description": "A multi-objective Particle Swarm Optimization (PSO) implementation for finding optimal portfolio allocations using S&P 500 stock data",
+      "link": "https://github.com/JS-Duggan/particle-swarm-optimisation"
     },
     "item_4": {
-      "name": "NovaBoost",
-      "description": "Free Astro 5 & TailwindCSS blog template—SEO-optimized, with JSON-LD and optional AI post generation.",
-      "link": "https://github.com/JorgeRosbel/NovaBoost"
-    },
-    "item_5": {
-      "name": "astro-i18n",
-      "description": "Simple internationalization (i18n) library for Astro with TypeScript support.",
-      "link": "https://github.com/JorgeRosbel/astro-i18n"
-    },
-    "item_6": {
-      "name": "astro-collections",
-      "description": "A collection utilities library for Astro framework, providing easy collection management components.",
-      "link": "https://github.com/JorgeRosbel/astro-collections"
-    },
-    "item_7": {
-      "name": "Geofisik Tool",
-      "description": "Geophysical web application to monitor vertical displacements in structures with interactive maps and time-series charts.",
-      "link": "https://tool.geofisik.com/"
-    },
-    "item_8": {
-      "name": "EmoteShowcase",
-      "description": "Web app for dynamic resizing and visualization of emotes with live previews and optimized export for streaming.",
-      "link": "https://emoteshowcase.com/"
+      "name": "Poker GTO Solver",
+      "description": "[in progress]",
+      "link": ""
     }
   },
   "experience": {
     "title": "Experience",
     "item_1": {
-      "period": "2024 — now",
-      "role": "Senior Engineer",
-      "company": "Vercel",
-      "description": "Building the frontend cloud. Working on the dashboard, deployment infrastructure, and developer experience."
+      "period": "2023 — now",
+      "role": "Software Engineer",
+      "company": "SAGE Automation",
+      "description": "Designed algorithms to interpret and improve traffic flow. Used machine vision to effectively identify and load train carriages."
     },
     "item_2": {
-      "period": "2022 — 2024",
-      "role": "Software Engineer",
-      "company": "Linear",
-      "description": "Shipped real-time sync, keyboard-first interactions, and performance optimizations."
-    },
-    "item_3": {
-      "period": "2020 — 2022",
-      "role": "Full Stack Developer",
-      "company": "Stripe",
-      "description": "Designed payment flows and merchant dashboards. Led the migration to React 18 and improved CI/CD pipelines."
-    },
-    "item_4": {
-      "period": "2018 — 2020",
-      "role": "Frontend Engineer",
-      "company": "Early Startup",
-      "description": "First engineering hire. Built the core product from scratch using Next.js and Tailwind CSS."
+      "period": "2022 — 2023",
+      "role": "Engineering Intern",
+      "company": "SAGE Automation",
+      "description": "Modelled and built PCB to manage power and ensure uptime. Used partial-string matching algorithms to implement a safe one-way bridge."
     }
   },
   "skills": {
     "heading": "Skills",
-    "react": {
-      "title": "React",
-      "category": "Lib",
-      "description": "UI Components, Hooks, State Management",
-      "experience_years": "4",
-      "experience_label": "years of experience"
-    },
-    "typescript": {
-      "title": "TypeScript",
+    "cpp": {
+      "title": "C++",
       "category": "Language",
-      "description": "Static Typing, Generics, Interfaces",
-      "experience_years": "3",
-      "experience_label": "years of experience"
-    },
-    "astro": {
-      "title": "Astro",
-      "category": "Framework",
-      "description": "Island Architecture, Static Site Generation",
+      "description": "STL, Memory Management, Template Metaprogramming",
       "experience_years": "2",
       "experience_label": "years of experience"
     },
-    "tailwind": {
-      "title": "Tailwind CSS",
-      "category": "Design",
-      "description": "Utility-First CSS, Responsive Design",
-      "experience_years": "4",
-      "experience_label": "years of experience"
-    },
-    "nodejs": {
-      "title": "Node.js",
-      "category": "Backend",
-      "description": "REST APIs, Express, Authentication",
-      "experience_years": "3",
-      "experience_label": "years of experience"
-    },
-    "kali_linux": {
-      "title": "Kali Linux",
-      "category": "Security",
-      "description": "Pentesting, SQL Injection, Network Auditing",
+    "python": {
+      "title": "Python",
+      "category": "Language",
+      "description": "Data Analysis, Automation, Algorithm Prototyping",
       "experience_years": "1",
-      "experience_label": "year of experience"
+      "experience_label": "years of experience"
+    },
+    "linux": {
+      "title": "Linux",
+      "category": "Systems",
+      "description": "System Administration, Shell Scripting, Performance Tuning",
+      "experience_years": "2",
+      "experience_label": "years of experience"
+    },
+    "algorithms": {
+      "title": "Algorithms & Data Structures",
+      "category": "CS Fundamentals",
+      "description": "Graph Algorithms, Dynamic Programming, Optimization",
+      "experience_years": "2",
+      "experience_label": "years of experience"
+    },
+    "git": {
+      "title": "Git",
+      "category": "Tools",
+      "description": "Version Control, Branching Strategies, Collaboration",
+      "experience_years": "2",
+      "experience_label": "years of experience"
+    },
+    "competitive_programming": {
+      "title": "Competitive Programming",
+      "category": "Problem Solving",
+      "description": "LeetCode, Algorithm Contests, Time Complexity",
+      "experience_years": "1",
+      "experience_label": "years of experience"
     }
   },
   "contact": {
-    "status": "Available for freelance",
+    "status": "Available for work",
     "email_label": "Email",
-    "email_url": "mailto:tu@email.com",
+    "email_url": "jacksduggan@gmail.com",
     "github_label": "GitHub",
-    "github_url": "https://github.com/tu-usuario",
-    "x_label": "X",
-    "x_url": "https://x.com/tu-usuario",
+    "github_url": "https://github.com/js-duggan",
     "linkedin_label": "Linkedin",
-    "linkedin_url": "https://linkedin.com/in/tu-perfil"
+    "linkedin_url": "https://linkedin.com/in/jack-stewart-duggan"
   }
 }

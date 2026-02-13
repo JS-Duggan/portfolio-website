@@ -29,15 +29,5 @@ const { nav, locales, currentLocale } = Astro.props as Props
             ))
         }
     </div>
-    <div class="order-1 md:order-2 mb-4 md:mb-0 space-x-2 md:space-x-0" >
-        {
-            locales.map(item =>
-                <a href={`/${item.toLowerCase()}`} class={cls("uppercase text-[1.2rem] md:text-[0.9rem] hover:opacity-100 cursor-pointer opacity-70 transition-all duration-200", item === currentLocale.toLowerCase() && "opacity-100")}>
-                    {item}
-                </a>
-                <span class="last:hidden opacity-50 text-[1.2rem] md:text-[0.9rem]">/</span>
-            )
-        }
-    </div>
     <div class="absolute -bottom-10 left-0 w-full h-18  pointer-events-none bg-linear-to-b from-background via-background/80 to-background/20 z-10"></div>
 </header>
