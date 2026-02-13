@@ -11,7 +11,7 @@ type FaviconMimeType = 'image/x-icon' | 'image/png' | 'image/svg+xml' | 'image/g
 interface Props {
   title: string;
   description: string;
-  image: ImageMetadata;
+  image?: ImageMetadata;
   enableClientRouter: boolean;
   preloadFonts?: { href: string; type: FontMimeType }[];
   loadRSS?: boolean;
