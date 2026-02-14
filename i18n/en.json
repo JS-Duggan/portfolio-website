@@ -55,44 +55,32 @@
     "cpp": {
       "title": "C++",
       "category": "Language",
-      "description": "STL, Memory Management, Template Metaprogramming",
-      "experience_years": "2",
-      "experience_label": "years of experience"
+      "description": "STL, Memory Management, Template Metaprogramming"
     },
     "python": {
       "title": "Python",
       "category": "Language",
-      "description": "Data Analysis, Automation, Algorithm Prototyping",
-      "experience_years": "1",
-      "experience_label": "years of experience"
+      "description": "Data Analysis, Automation, Algorithm Prototyping"
     },
     "linux": {
       "title": "Linux",
       "category": "Systems",
-      "description": "System Administration, Shell Scripting, Performance Tuning",
-      "experience_years": "2",
-      "experience_label": "years of experience"
+      "description": "System Administration, Shell Scripting, Performance Tuning"
     },
     "algorithms": {
       "title": "Algorithms & Data Structures",
       "category": "CS Fundamentals",
-      "description": "Graph Algorithms, Dynamic Programming, Optimization",
-      "experience_years": "2",
-      "experience_label": "years of experience"
+      "description": "Graph Algorithms, Dynamic Programming, Optimization"
     },
     "git": {
       "title": "Git",
       "category": "Tools",
-      "description": "Version Control, Branching Strategies, Collaboration",
-      "experience_years": "2",
-      "experience_label": "years of experience"
+      "description": "Version Control, Branching Strategies, Collaboration"
     },
     "competitive_programming": {
       "title": "Competitive Programming",
       "category": "Problem Solving",
-      "description": "LeetCode, Algorithm Contests, Time Complexity",
-      "experience_years": "1",
-      "experience_label": "years of experience"
+      "description": "LeetCode, Algorithm Contests, Time Complexity"
     }
   },
   "contact": {

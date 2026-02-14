@@ -7,8 +7,6 @@ interface Content {
     title: Option;
     category: Option;
     description: Option;
-    experience_years: Option;
-    experience_label: Option;
 }
 
 interface Props {
@@ -39,17 +37,9 @@ const { heading, content } = Astro.props as Props;
                     </I18NDebug>
 
                     <I18NDebug key={skill.description.key}>
-                        <p class="text-[0.88rem] opacity-50 py-2 border-b">{skill.description.value}</p>
+                        <p class="text-[0.88rem] opacity-50 py-2">{skill.description.value}</p>
                     </I18NDebug>
 
-                    <div class="flex gap-2 items-center pt-2">
-                        <I18NDebug key={skill.experience_years.key}>
-                            <p class="text-3xl">{skill.experience_years.value}</p>
-                        </I18NDebug>
-                        <I18NDebug key={skill.experience_label.key}>
-                            <p class="text-[0.88rem] opacity-50">{skill.experience_label.value}</p>
-                        </I18NDebug>
-                    </div>
                 </article>
             ))
         }
