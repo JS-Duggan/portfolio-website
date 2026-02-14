@@ -98,7 +98,7 @@
   "contact": {
     "status": "Available for work",
     "email_label": "Email",
-    "email_url": "jacksduggan@gmail.com",
+    "email_url": "mailto:jacksduggan@gmail.com",
     "github_label": "GitHub",
     "github_url": "https://github.com/js-duggan",
     "linkedin_label": "Linkedin",
